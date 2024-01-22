@@ -1982,7 +1982,7 @@ The command below make multiple modification to an identity using the --json fla
 
 .. code:: bash
 
-    fabric-ca-client identity modify user1 --json '{"secret": "newPassword", "affiliation": ".", "attrs": [{"name": "hf.Regisrar.Roles", "value": "peer,client"},{"name": "hf.Revoker", "value": "true"}]}'
+    fabric-ca-client identity modify user1 --json '{"secret": "newPassword", "affiliation": ".", "attrs": [{"name": "hf.Registrar.Roles", "value": "peer,client"},{"name": "hf.Revoker", "value": "true"}]}'
 
 The commands below make modifications using direct flags. The following updates the enrollment secret (or password) for identity 'user1' to 'newsecret'.
 
